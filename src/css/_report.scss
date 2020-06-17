@@ -1,0 +1,30 @@
+.report {
+    background: linear-gradient(173.7deg, #1172D0 6.2%, #1D98D6 99.82%);
+    color: #ffffff;
+
+    &__container {
+        @extend %container;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    &__link {
+        margin-top: 18px;
+        margin-bottom: 40px;
+
+        a {
+            color: #ffffff;
+            text-decoration: underline;
+            font-style: italic;
+        }
+    }
+
+    &__logo {
+        margin-top: 60px;
+    }
+}

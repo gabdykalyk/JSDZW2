@@ -1,0 +1,24 @@
+.people {
+    &__container {
+        @extend %container;
+        display: flex;
+    }
+
+    &__item {
+        display: flex;
+        margin-top: 42px;
+        margin-bottom: 40px;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 76px;
+    }
+
+    &__name,
+    &__social {
+        margin-top: 12px;
+        margin-left: 23px;
+        font-size: 18px;
+        white-space: nowrap;
+    }
+}

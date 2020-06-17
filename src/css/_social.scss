@@ -1,0 +1,16 @@
+.social {
+    height: 105px;
+    background-color: #F9FAFA;
+
+    &__container {
+        max-width: 703px;
+        margin: 0 auto;
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 46px;
+    }
+}
